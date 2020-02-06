@@ -1,0 +1,9 @@
+{
+  "report": {
+    "id": 1016888664,
+    "name": "A new app report",
+    "shopify_ql": "SHOW total_sales BY order_id FROM sales SINCE -1m UNTIL today ORDER BY total_sales",
+    "updated_at": "2020-01-14T10:32:17-05:00",
+    "category": "custom_app_reports"
+  }
+}

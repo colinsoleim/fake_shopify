@@ -1,0 +1,39 @@
+{
+  "variant": {
+    "id": 808950810,
+    "product_id": 632910392,
+    "title": "Not Pink",
+    "price": "99.00",
+    "sku": "IPOD2008PINK",
+    "position": 1,
+    "inventory_policy": "continue",
+    "compare_at_price": null,
+    "fulfillment_service": "manual",
+    "inventory_management": "shopify",
+    "option1": "Not Pink",
+    "option2": null,
+    "option3": null,
+    "created_at": "2020-01-14T10:35:09-05:00",
+    "updated_at": "2020-01-14T10:40:25-05:00",
+    "taxable": true,
+    "barcode": "1234_pink",
+    "grams": 567,
+    "image_id": 562641783,
+    "weight": 1.25,
+    "weight_unit": "lb",
+    "inventory_item_id": 808950810,
+    "inventory_quantity": 10,
+    "old_inventory_quantity": 10,
+    "requires_shipping": true,
+    "admin_graphql_api_id": "gid://shopify/ProductVariant/808950810",
+    "presentment_prices": [
+      {
+        "price": {
+          "currency_code": "USD",
+          "amount": "99.00"
+        },
+        "compare_at_price": null
+      }
+    ]
+  }
+}

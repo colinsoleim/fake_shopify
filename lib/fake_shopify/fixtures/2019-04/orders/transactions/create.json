@@ -1,0 +1,25 @@
+{
+  "transaction": {
+    "id": 1072844688,
+    "order_id": 450789469,
+    "kind": "capture",
+    "gateway": "bogus",
+    "status": "success",
+    "message": "Bogus Gateway: Forced success",
+    "created_at": "2020-01-14T10:39:04-05:00",
+    "test": true,
+    "authorization": null,
+    "location_id": null,
+    "user_id": null,
+    "parent_id": 389404469,
+    "processed_at": "2020-01-14T10:39:04-05:00",
+    "device_id": null,
+    "receipt": {},
+    "error_code": null,
+    "source_name": "755357713",
+    "currency_exchange_adjustment": null,
+    "amount": "10.00",
+    "currency": "USD",
+    "admin_graphql_api_id": "gid://shopify/OrderTransaction/1072844688"
+  }
+}
