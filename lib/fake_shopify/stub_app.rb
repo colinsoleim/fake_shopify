@@ -1,10 +1,8 @@
 require "sinatra/base"
-Dir["./lib/fake_shopify/routes/*.rb"].each { |file| require file }
+Dir[File.join(__dir__, '/routes', '*.rb')].each { |file| require file }
 
 module FakeShopify
   class StubApp < Sinatra::Base
-    private
-
     def fixture(api_version, file_name)
       file_path = File.join(FakeShopify.fixture_path, api_version.to_s, "#{file_name}.json")
       File.open(file_path, "rb").read
