@@ -1,0 +1,15 @@
+{
+  "image": {
+    "id": 1001473896,
+    "product_id": 632910392,
+    "position": 3,
+    "created_at": "2020-01-14T10:20:53-05:00",
+    "updated_at": "2020-01-14T10:20:53-05:00",
+    "alt": null,
+    "width": 110,
+    "height": 140,
+    "src": "https://cdn.shopify.com/s/files/1/0006/9093/3842/products/rails_logo.gif?v=1579015253",
+    "variant_ids": [],
+    "admin_graphql_api_id": "gid://shopify/ProductImage/1001473896"
+  }
+}

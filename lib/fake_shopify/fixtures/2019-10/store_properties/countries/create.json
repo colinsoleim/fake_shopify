@@ -1,0 +1,10 @@
+{
+  "country": {
+    "id": 1070231511,
+    "name": "France",
+    "tax": 0.2,
+    "code": "FR",
+    "tax_name": "TVA",
+    "provinces": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "smart_collection": {
+    "id": 1063001338,
+    "handle": "ipods-1",
+    "title": "IPods",
+    "updated_at": "2020-01-14T10:36:12-05:00",
+    "body_html": null,
+    "published_at": "2020-01-14T10:36:12-05:00",
+    "sort_order": "best-selling",
+    "template_suffix": null,
+    "disjunctive": false,
+    "rules": [
+      {
+        "column": "title",
+        "relation": "starts_with",
+        "condition": "iPod"
+      }
+    ],
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/1063001338"
+  }
+}

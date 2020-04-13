@@ -1,0 +1,14 @@
+{
+  "discount_code_creation": {
+    "id": 173232803,
+    "price_rule_id": 507328175,
+    "started_at": null,
+    "completed_at": null,
+    "created_at": "2020-01-14T10:35:09-05:00",
+    "updated_at": "2020-01-14T10:35:09-05:00",
+    "status": "queued",
+    "codes_count": 3,
+    "imported_count": 0,
+    "failed_count": 0
+  }
+}

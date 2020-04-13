@@ -1,0 +1,130 @@
+{
+  "refund": {
+    "id": 929361464,
+    "order_id": 450789469,
+    "created_at": "2020-01-14T10:34:55-05:00",
+    "note": "wrong size",
+    "user_id": null,
+    "processed_at": "2020-01-14T10:34:55-05:00",
+    "restock": true,
+    "admin_graphql_api_id": "gid://shopify/Refund/929361464",
+    "refund_line_items": [
+      {
+        "id": 1058498311,
+        "quantity": 1,
+        "line_item_id": 518995019,
+        "location_id": 487838322,
+        "restock_type": "return",
+        "subtotal": 199.0,
+        "total_tax": 3.98,
+        "subtotal_set": {
+          "shop_money": {
+            "amount": "199.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "199.00",
+            "currency_code": "USD"
+          }
+        },
+        "total_tax_set": {
+          "shop_money": {
+            "amount": "3.98",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "3.98",
+            "currency_code": "USD"
+          }
+        },
+        "line_item": {
+          "id": 518995019,
+          "variant_id": 49148385,
+          "title": "IPod Nano - 8gb",
+          "quantity": 1,
+          "sku": "IPOD2008RED",
+          "variant_title": "red",
+          "vendor": null,
+          "fulfillment_service": "manual",
+          "product_id": 632910392,
+          "requires_shipping": true,
+          "taxable": true,
+          "gift_card": false,
+          "name": "IPod Nano - 8gb - red",
+          "variant_inventory_management": "shopify",
+          "properties": [],
+          "product_exists": true,
+          "fulfillable_quantity": 0,
+          "grams": 200,
+          "price": "199.00",
+          "total_discount": "0.00",
+          "fulfillment_status": null,
+          "price_set": {
+            "shop_money": {
+              "amount": "199.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "199.00",
+              "currency_code": "USD"
+            }
+          },
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "USD"
+            }
+          },
+          "discount_allocations": [],
+          "admin_graphql_api_id": "gid://shopify/LineItem/518995019",
+          "tax_lines": [
+            {
+              "title": "State Tax",
+              "price": "3.98",
+              "rate": 0.06,
+              "price_set": {
+                "shop_money": {
+                  "amount": "3.98",
+                  "currency_code": "USD"
+                },
+                "presentment_money": {
+                  "amount": "3.98",
+                  "currency_code": "USD"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "transactions": [
+      {
+        "id": 1072844685,
+        "order_id": 450789469,
+        "kind": "refund",
+        "gateway": "bogus",
+        "status": "success",
+        "message": "Bogus Gateway: Forced success",
+        "created_at": "2020-01-14T10:34:55-05:00",
+        "test": true,
+        "authorization": null,
+        "location_id": null,
+        "user_id": null,
+        "parent_id": 801038806,
+        "processed_at": "2020-01-14T10:34:55-05:00",
+        "device_id": null,
+        "receipt": {},
+        "error_code": null,
+        "source_name": "755357713",
+        "amount": "41.94",
+        "currency": "USD",
+        "admin_graphql_api_id": "gid://shopify/OrderTransaction/1072844685"
+      }
+    ],
+    "order_adjustments": []
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "inventory_level": {
+    "inventory_item_id": 457924702,
+    "location_id": 192722535,
+    "available": 0,
+    "updated_at": "2020-01-14T10:47:01-05:00",
+    "admin_graphql_api_id": "gid://shopify/InventoryLevel/192722535?inventory_item_id=457924702"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "carrier_service": {
+    "id": 1036894959,
+    "name": "Purolator",
+    "active": true,
+    "service_discovery": true,
+    "carrier_service_type": "api",
+    "admin_graphql_api_id": "gid://shopify/DeliveryCarrierService/1036894959",
+    "format": "json",
+    "callback_url": "http://example.com/"
+  }
+}

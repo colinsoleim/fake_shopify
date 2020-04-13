@@ -202,6 +202,10 @@ module FakeShopify
       json_response 200, fixture(params[:api_version], "online_store/articles/show")
     end
     # Receive a single Article
+    post "/admin/api/:api_version/articles.json" do
+      json_response 200, fixture(params[:api_version], "online_store/articles/create")
+    end
+    # Creates an article for a blog
     post "/admin/api/:api_version/blogs/:blog_id/articles.json" do
       json_response 200, fixture(params[:api_version], "online_store/articles/create")
     end

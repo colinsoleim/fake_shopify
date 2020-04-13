@@ -1,0 +1,15 @@
+{
+  "fulfillment_service": {
+    "id": 755357713,
+    "name": "New Fulfillment Service Name",
+    "handle": "new-fulfillment-service-name",
+    "email": null,
+    "include_pending_stock": false,
+    "requires_shipping_method": false,
+    "service_name": "New Fulfillment Service Name",
+    "inventory_management": true,
+    "tracking_support": true,
+    "provider_id": null,
+    "location_id": 48752903
+  }
+}

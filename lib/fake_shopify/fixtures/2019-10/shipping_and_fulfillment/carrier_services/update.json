@@ -1,0 +1,12 @@
+{
+  "carrier_service": {
+    "id": 1036894957,
+    "name": "Some new name",
+    "active": false,
+    "service_discovery": true,
+    "carrier_service_type": "api",
+    "admin_graphql_api_id": "gid://shopify/DeliveryCarrierService/1036894957",
+    "format": "json",
+    "callback_url": "http://example.com/"
+  }
+}
